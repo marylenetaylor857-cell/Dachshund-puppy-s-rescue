@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dachshund Haven Rescue</title>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<h1>Dachshund Haven Rescue</h1>
+
+<p>Find loving homes for rescued Dachshund puppies</p>
+
+</header>
+
+
+<hr>
+
+
+<nav>
+
+<a href="#home">Home</a> |
+<a href="#puppies">Puppies</a> |
+<a href="#adoption">Adoption</a> |
+<a href="#contact">Contact</a>
+
+</nav>
+
+
+<hr>
+
+
+
+<section id="home">
+
+
+<h2>Welcome To Our Rescue Center</h2>
+
+
+<label for="mainPhoto">
+
+<img id="mainPreview"
+src="https://via.placeholder.com/600x350?text=Dachshund+Puppies"
+alt="Dachshund Puppies"
+width="600">
+
+</label>
+
+
+<input
+type="file"
+id="mainPhoto"
+accept="image/*"
+onchange="loadImage(event,'mainPreview')"
+hidden>
+
+
+<p>
+Tap the picture above to upload your Dachshund rescue banner photo.
+</p>
+
+
+<p>
+We rescue, care for, and help Dachshund puppies find safe and loving homes.
+</p>
+
+
+</section>
+
+
+
+<hr>
+
+
+
+
+<section id="puppies">
+
+
+<h2>Available Dachshund Puppies</h2>
+
+
+<table border="1" cellpadding="15">
+
+
+<tr>
+
+<th>Photo</th>
+<th>Name</th>
+<th>Age</th>
+<th>Description</th>
+
+</tr>
+
+
+
+
+<tr>
+
+<td>
+<label for="charliePhoto">
+
+<img id="charliePreview"
+src="https://via.placeholder.com/150?text=Charlie"
+alt="Charlie"
+width="150">
+
+</label>
+
+<input type="file"
+id="charliePhoto"
+accept="image/*"
+onchange="loadImage(event,'charliePreview')"
+hidden>
+
+</td>
+
+<td>Charlie</td>
+<td>10 Weeks</td>
+<td>Friendly male Dachshund puppy.</td>
+
+</tr>
+
+
+
+
+
+<tr>
+
+<td>
+
+<label for="bellaPhoto">
+
+<img id="bellaPreview"
+src="https://via.placeholder.com/150?text=Bella"
+alt="Bella"
+width="150">
+
+</label>
+
+
+<input type="file"
+id="bellaPhoto"
+accept="image/*"
+onchange="loadImage(event,'bellaPreview')"
+hidden>
+
+</td>
+
+<td>Bella</td>
+<td>12 Weeks</td>
+<td>Gentle female Dachshund puppy.</td>
+
+</tr>
+
+
+
+
+
+<tr>
+
+<td>
+
+<label for="maxPhoto">
+
+<img id="maxPreview"
+src="https://via.placeholder.com/150?text=Max"
+alt="Max"
+width="150">
+
+</label>
+
+
+<input type="file"
+id="maxPhoto"
+accept="image/*"
+onchange="loadImage(event,'maxPreview')"
+hidden>
+
+</td>
+
+<td>Max</td>
+<td>11 Weeks</td>
+<td>Active Dachshund puppy ready for adoption.</td>
+
+</tr>
+
+
+
+
+
+<tr>
+
+<td>
+
+<label for="maddiePhoto">
+
+<img id="maddiePreview"
+src="https://via.placeholder.com/150?text=Maddie"
+alt="Maddie"
+width="150">
+
+</label>
+
+
+<input type="file"
+id="maddiePhoto"
+accept="image/*"
+onchange="loadImage(event,'maddiePreview')"
+hidden>
+
+</td>
+
+<td>Maddie</td>
+<td>10 Weeks</td>
+<td>Sweet female Dachshund puppy.</td>
+
+</tr>
+
+
+
+
+
+<tr>
+
+<td>
+
+<label for="oliePhoto">
+
+<img id="oliePreview"
+src="https://via.placeholder.com/150?text=Olie"
+alt="Olie"
+width="150">
+
+</label>
+
+
+<input type="file"
+id="oliePhoto"
+accept="image/*"
+onchange="loadImage(event,'oliePreview')"
+hidden>
+
+</td>
+
+<td>Olie</td>
+<td>11 Weeks</td>
+<td>Playful Dachshund puppy.</td>
+
+</tr>
+
+
+
+
+
+<tr>
+
+<td>
+
+<label for="jackPhoto">
+
+<img id="jackPreview"
+src="https://via.placeholder.com/150?text=Jack"
+alt="Jack"
+width="150">
+
+</label>
+
+
+<input type="file"
+id="jackPhoto"
+accept="image/*"
+onchange="loadImage(event,'jackPreview')"
+hidden>
+
+</td>
+
+<td>Jack</td>
+<td>12 Weeks</td>
+<td>Active male Dachshund puppy.</td>
+
+</tr>
+
+
+
+
+
+<tr>
+
+<td>
+
+<label for="leePhoto">
+
+<img id="leePreview"
+src="https://via.placeholder.com/150?text=Lee"
+alt="Lee"
+width="150">
+
+</label>
+
+
+<input type="file"
+id="leePhoto"
+accept="image/*"
+onchange="loadImage(event,'leePreview')"
+hidden>
+
+</td>
+
+<td>Lee</td>
+<td>9 Weeks</td>
+<td>Gentle Dachshund puppy.</td>
+
+</tr>
+
+
+
+
+
+<tr>
+
+<td>
+
+<label for="ggPhoto">
+
+<img id="ggPreview"
+src="https://via.placeholder.com/150?text=GG+Crew"
+alt="GG Crew"
+width="150">
+
+</label>
+
+
+<input type="file"
+id="ggPhoto"
+accept="image/*"
+onchange="loadImage(event,'ggPreview')"
+hidden>
+
+</td>
+
+<td>GG Crew</td>
+<td>13 Weeks</td>
+<td>Friendly Dachshund puppy group.</td>
+
+</tr>
+
+
+
+</table>
+
+
+</section>
+
+
+
+
+<hr>
+
+
+
+
+<section id="adoption">
+
+
+<h2>Adoption Application</h2>
+
+
+<form>
+
+
+<label>Full Name:</label><br>
+
+<input type="text">
+
+
+<br><br>
+
+
+<label>Email:</label><br>
+
+<input type="email">
+
+
+<br><br>
+
+
+<label>Phone Number:</label><br>
+
+<input type="tel">
+
+<br><br>
+
+<label>Location:</label><br>
+
+<input type="varchar">
+
+<br><br>
+
+
+<label>Select Puppy:</label><br>
+
+
+<select>
+
+<option>Charlie</option>
+<option>Bella</option>
+<option>Max</option>
+<option>Maddie</option>
+<option>Olie</option>
+<option>Jack</option>
+<option>Lee</option>
+<option>GG Crew</option>
+
+</select>
+
+
+<br><br>
+
+
+<label>Message:</label><br>
+
+<textarea rows="5" cols="40"></textarea>
+
+
+<br><br>
+
+
+<input type="submit" value="Submit Application">
+
+
+</form>
+
+
+</section>
+
+
+
+
+
+<hr>
+
+
+
+
+<section id="contact">
+
+
+<h2>Contact Us</h2>
+
+
+<p>
+Email:
+<a href="mailto:petedonald345@gmail.com?subject=Dachshund%20Adoption%20Inquiry">
+petedonald345@gmail.com
+</a>
+</p>
+
+
+<p>
+Tap the email address to send an adoption message.
+</p>
+
+
+</section>
+
+
+
+
+<hr>
+
+
+
+
+<footer>
+
+<p>
+Copyright © 2023 Dachshund Haven Rescue
+</p>
+
+
+</footer>
+
+
+
+
+
+<script>
+
+
+function loadImage(event, imageID)
+
+{
+
+let image = document.getElementById(imageID);
+
+image.src = URL.createObjectURL(event.target.files[0]);
+
+}
+
+
+</script>
+
+
+
+</body>
+
+</html>
